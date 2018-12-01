@@ -1,0 +1,65 @@
+body
+{
+	font-family: Arial, sans-serif;
+	background-color: #000000;
+}
+
+Header
+{
+	color: #ffcc00;
+
+	text-align: center;
+}
+
+#towson
+{
+	font-family: Franklin Gothic Demi;
+	font-size: 35px;
+}
+
+#date
+{
+	font-family: arial;
+	font-size: 30px;
+}
+
+.col
+{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+.blink_text 
+{
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+
+    color: #ffffff;
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	text-align: center;
+	padding: 30px 30px;
+}
+
+    @-moz-keyframes blinker 
+	{  
+		0% { opacity: 1.0; }
+		50% { opacity: 0.0; }
+		100% { opacity: 1.0; }
+    }
+
+    @-webkit-keyframes blinker 
+	{  
+		0% { opacity: 1.0; }
+		50% { opacity: 0.0; }
+		100% { opacity: 1.0; }
+    }
+
+    @keyframes blinker 
+	{  
+		0% { opacity: 1.0; }
+		50% { opacity: 0.0; }
+		100% { opacity: 1.0; }
+    }
